@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ash">#979797</color>
+    <color name="sky">#1BD1A8</color>
+    <color name="light_ash">#DEDBDB</color>
+    <color name="darksky">#3C7B7B</color>
+    <color name="lightsky2">#55A1B2</color>
+    <color name="darksky1">#0FA07E</color>
+    <color name="lightgreen">#26EF93</color>
+    <color name="lightyellow">#F3C20E</color>
+    <color name="darkgreen1">#216716</color>
+    <color name="lightgreen2">#9ED59A</color>
+</resources>

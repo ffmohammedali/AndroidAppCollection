@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+    <TextView
+        android:id="@+id/itemMusic"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="asdasd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_ash"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+</androidx.cardview.widget.CardView>

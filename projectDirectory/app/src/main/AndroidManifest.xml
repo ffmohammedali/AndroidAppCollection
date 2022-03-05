@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectdirectory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:name=".MusicPlayer.app"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MusicPlayer.SongPlayer"  android:launchMode="singleTop"/>
+        <activity android:name=".MusicPlayer.MusicPlayer" />
+        <activity android:name=".AwesomeTMDB.Tmdbdescription" />
+        <activity android:name=".AwesomeTMDB.AwesomeTMDB" />
+        <activity android:name=".async_task.SimpleAsyncTaskActivity" />
+        <activity android:name=".ninepatch" />
+        <activity android:name=".drawable_style_theme" />
+        <activity android:name=".recycleview2" />
+        <activity android:name=".recycleView" />
+        <activity android:name=".navigation2" />
+        <activity
+            android:name=".userNavigation1child"
+            android:parentActivityName=".userNavigation1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".userNavigation1" />
+        </activity>
+        <activity android:name=".userNavigation1" />
+        <activity android:name=".menu_pickers" />
+        <activity android:name=".ButtonAssignment" />
+        <activity android:name=".custom_browser">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:scheme="https" />
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".imageViewer" />
+        <activity android:name=".idCardViewer" />
+        <activity android:name=".textViewScrollView" />
+        <activity android:name=".transitionNavigation2" />
+        <activity android:name=".transitionNavigation" />
+        <activity android:name=".assignment_datasave" />
+        <activity android:name=".implicitIntentAssignment" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".MusicPlayer.MusicService" />
+    </application>
+
+</manifest>

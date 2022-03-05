@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="@drawable/gradient"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+
+            >
+            <Button
+                android:id="@+id/musicPlayerBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music Player"
+                />
+
+            <Button
+                android:id="@+id/assignment191119BT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="intent_Assignment"
+
+                />
+
+            <Button
+                android:id="@+id/dataSaveAssignmentBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dataSave_Assignment"
+
+                />
+            <Button
+                android:id="@+id/transitionNavigationBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="transition_Navigation"
+
+                />
+            <Button
+                android:id="@+id/textViewScrollViewBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textView_ScrollView"
+
+                />
+            <Button
+                android:id="@+id/idcardBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IDCardView"
+
+                />
+            <Button
+                android:id="@+id/imageViewBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ImageView"
+
+
+                />
+            <Button
+                android:id="@+id/buttonAssignmentBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="buttonAssignment"
+                />
+            <Button
+                android:id="@+id/menupickersBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="menu-picker"
+                />
+            <Button
+                android:id="@+id/navigationAssignment1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="navigationAssignment1"
+                />
+            <Button
+                android:id="@+id/navigationAssignment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="navigationAssignment2"
+                />
+            <Button
+                android:id="@+id/recycleview1BT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recycleView1"
+                />
+            <Button
+                android:id="@+id/recycleview2BT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recycleView2"
+                />
+
+            <Button
+                android:id="@+id/drawableStyleBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="drawable_style_theme"
+                />
+            <Button
+                android:id="@+id/ninepatchBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9patch_Image"
+                />
+            <Button
+                android:id="@+id/AsyncBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Async_Task"
+                />
+            <Button
+                android:id="@+id/apiTestBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AwesomeTmdb"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
